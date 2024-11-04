@@ -23,14 +23,12 @@ class Home extends StatelessWidget {
           child: Stack(
             textDirection: TextDirection.ltr,
             children: <Widget>[
-              // Background container
               Container(
                 width: 250,
                 height: 250,
                 color: Colors.white,
               ),
 
-              // Container with gradient and text
               Container(
                 padding: const EdgeInsets.all(5.0),
                 alignment: Alignment.bottomCenter,
@@ -52,9 +50,8 @@ class Home extends StatelessWidget {
                 ),
               ),
 
-              // GIF image
               Image.asset(
-                'assets/giphy.webp', // Replace with the actual path to your GIF
+                'assets/giphy.webp',
               ),
             ],
           ),
